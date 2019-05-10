@@ -32,7 +32,7 @@ add_action( 'pre_get_posts', 'my_post_count_queries' );
 
 /** Create Paginations nvigation **/
 
-function collio_numeric_posts_nav() {
+function choosepizzi_numeric_posts_nav() {
 
     global $prev_symbol;
     global $next_symbol;
