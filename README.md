@@ -11,6 +11,6 @@ How to Add Numeric Pagination in Your WordPress Theme
  * - Choose how many element for page to display, you can add different conditions [ line 17 ]
  *  **/
  
-Add directly in your theme function.php and, where you want the pagination appears ( outside the loop ) add this :
-<?php collio_numeric_posts_nav(); ?>
+Include pagination.php ( <?php include(THEME_DIR . '/pagination.php'); ?> ) in your theme function.php and, where you want the pagination appears ( outside the loop ) add this :
+<?php choosepizzi_numeric_posts_nav(); ?>
 
